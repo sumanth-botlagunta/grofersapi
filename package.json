@@ -1,0 +1,22 @@
+{
+  "name": "grofers__api",
+  "version": "1.0.0",
+  "description": "live api for grofers data",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.js"
+  },
+  "keywords": [
+    "grofers",
+    "api",
+    "grofersapi"
+  ],
+  "author": "sumanth",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.1.3"
+  }
+}
