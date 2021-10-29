@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongo = require('mongodb');
 const mongoclient = mongo.MongoClient;
-const port = process.env.PORT || 3500 ;
+const port = process.env.PORT||3500 ;
 var cors = require('cors');
 const mongourl = "mongodb+srv://sumanth:12345@sumanth.w8xsd.mongodb.net/grofers?retryWrites=true&w=majority";
 var db;

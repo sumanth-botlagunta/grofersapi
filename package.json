@@ -4,7 +4,7 @@
   "description": "live api for grofers data",
   "main": "index.js",
   "scripts": {
-    "start": "npm index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "grofers",
